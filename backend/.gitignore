@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# Django-related files
+*.log
+local_settings.py
+
+# Database files
+*.sqlite3
+*.db
+
+# Migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Media / Static files
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# VS Code & JetBrains IDEs
+.vscode/
+.idea/
+
+# Node modules (if frontend is included)
+node_modules/
+
+# Celery & Redis
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.pid
+*.log
+__pycache__/
+
+# Pytest & Coverage reports
+.coverage
+htmlcov/
+.nox/
+.tox/
+.pytest_cache/
+
+# Secrets & Credentials
+config.json
+secrets.json
+private.key
+public.key
+
+# Gunicorn
+gunicorn.sock
+
+# Pipenv & Poetry
+Pipfile.lock
+poetry.lock
