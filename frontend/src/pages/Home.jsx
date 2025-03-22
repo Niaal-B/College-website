@@ -434,6 +434,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <FeedbackForm/>
       
       {/* News Highlights */}
       {/* <div className="news-highlights-section">
